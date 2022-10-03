@@ -1,7 +1,7 @@
 import json
 
 def retornar_json():
-    with open ("partida.json", encoding="utf-8") as partida:
+    with open ("exercicios_manipulacao_dados/partida.json", encoding="utf-8") as partida:
         json_partida = json.load(partida)
         return json_partida
 
