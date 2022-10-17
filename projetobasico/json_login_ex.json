@@ -1,0 +1,18 @@
+{
+    "user_valido": {
+        "email":"fulando@qa.com",
+        "senha":"teste"
+    },
+    "user_invalido": {
+        "email":"emailinexistente@gmail.com",
+        "senha":"teste123"
+    },
+    "user_sem_senha": {
+        "email":"fulando@qa.com",
+        "senha":""
+    },
+    "user_sem_email": {
+        "email":"",
+        "senha":"teste"
+    }
+}
